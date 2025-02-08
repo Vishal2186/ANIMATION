@@ -3,7 +3,7 @@
 using namespace std;
 int n = 200;
 
-void animate() {
+void animate(string s) {
     const int width = 100; // Width of the console animation
     int pos = 0;
     int direction = 1; // 1 for right, -1 for left
@@ -16,7 +16,7 @@ void animate() {
         for (int i = 0; i < pos; i++) {
             cout << " ";
         }
-        cout << "<--|(o_o)|__|(o_o)|__|(o_o)|-->" <<endl;
+        cout << s <<endl;
 
         // Update position
         pos += direction;
@@ -29,7 +29,7 @@ void animate() {
 }
 
 int main() {
-    animate();
+    animate("<--|(o_o)|__|(o_o)|__|(o_o)|-->");
     cout<<endl;
     cout<<endl;
     cout<<"\t\t\t\t\t\t\tH A P P Y   J O U R N Y";
