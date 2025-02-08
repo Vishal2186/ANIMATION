@@ -1,2 +1,2 @@
-# ANIMATION
- 
+# Just a fun code...
+Animation of train without grafics.h or any other library 🙂✌️
